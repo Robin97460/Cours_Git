@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Component</title>
+    <!-- Lien vers un fichier CSS si nécessaire -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Composant de base -->
+    <section class="component" id="component">
+        <header class="component__header">
+            <h1>Titre du composant</h1>
+            <p class="component__subtitle">Sous-titre ou description courte</p>
+        </header>
+
+        <main class="component__body">
+            <p>Contenu principal du composant — remplacez ce texte par ce dont vous avez besoin.</p>
+            <button id="component-action">Action</button>
+        </main>
+
+        <footer class="component__footer">
+            <small>© Votre projet</small>
+        </footer>
+    </section>
+
+    <!-- Script JS de base -->
+    <script>
+        // Exemple minimal d'interaction
+        document.getElementById('component-action')?.addEventListener('click', function () {
+            alert('Action du composant déclenchée !');
+        });
+    </script>
+
+</body>
+
+</html>
